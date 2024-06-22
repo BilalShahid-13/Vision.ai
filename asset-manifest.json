@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Vision.ai/static/css/main.292a8f0d.css",
-    "main.js": "/Vision.ai/static/js/main.686d622d.js",
+    "main.js": "/Vision.ai/static/js/main.5bd06436.js",
     "static/js/453.419a5d54.chunk.js": "/Vision.ai/static/js/453.419a5d54.chunk.js",
     "static/media/Gallient.ttf": "/Vision.ai/static/media/Gallient.419a762c1efbc6a5bd7c.ttf",
     "index.html": "/Vision.ai/index.html",
     "main.292a8f0d.css.map": "/Vision.ai/static/css/main.292a8f0d.css.map",
-    "main.686d622d.js.map": "/Vision.ai/static/js/main.686d622d.js.map",
+    "main.5bd06436.js.map": "/Vision.ai/static/js/main.5bd06436.js.map",
     "453.419a5d54.chunk.js.map": "/Vision.ai/static/js/453.419a5d54.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.292a8f0d.css",
-    "static/js/main.686d622d.js"
+    "static/js/main.5bd06436.js"
   ]
 }
