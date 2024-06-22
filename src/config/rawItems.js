@@ -27,12 +27,12 @@ export const HeroDetails = [
 
 export const HeroGrid = [
   [
-    "https://github.com/BilalShahid-13/Vision.ai/tree/ccf7383358066fee7c97be6305406be0b15ff3da/public/hero/1.png",
-    "https://github.com/BilalShahid-13/Vision.ai/tree/ccf7383358066fee7c97be6305406be0b15ff3da/public/hero/2.png",
+    "https://bilalshahid-13.github.io/Vision.ai/hero/1.png",
+    "https://bilalshahid-13.github.io/Vision.ai/hero/2.png",
   ],
   [
-    "https://github.com/BilalShahid-13/Vision.ai/tree/ccf7383358066fee7c97be6305406be0b15ff3da/public/hero/3.png",
-    "https://github.com/BilalShahid-13/Vision.ai/tree/ccf7383358066fee7c97be6305406be0b15ff3da/public/hero/4.png",
+    "https://bilalshahid-13.github.io/Vision.ai/hero/3.png",
+    "https://bilalshahid-13.github.io/Vision.ai/hero/4.png",
   ],
 ];
 

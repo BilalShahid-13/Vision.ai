@@ -70,7 +70,7 @@ const Navbar = () => {
         items-center gap-3"
           >
             <img
-              src="https://github.com/BilalShahid-13/Vision.ai/blob/fa738361a60e097565cfc16c37cca7dcdc12d838/public/download.svg"
+              src="https://bilalshahid-13.github.io/Vision.ai/download.svg"
               width={40}
               height={40}
             />
