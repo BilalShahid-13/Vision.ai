@@ -41,37 +41,6 @@ const Navbar = () => {
 
   useEffect(() => {}, [location]);
 
-  // useEffect(() => {
-  //   if (menu_btn) {
-  //     gsap.fromTo(
-  //       "#middle",
-  //       {
-  //         opacity: 0,
-  //       },
-  //       {
-  //         opacity: 1,
-  //         stagger: 1,
-  //         yPercent: 0,
-  //         duration: 1,
-  //       }
-  //     );
-  //   } else {
-  //     gsap.fromTo(
-  //       "#middle",
-  //       {
-  //         opacity: 1,
-  //         xPercent: -100,
-  //       },
-  //       {
-  //         opacity: 0,
-  //         stagger: .4,
-  //         xPercent: 0,
-  //         duration: 0.8,
-  //       }
-  //     );
-  //   }
-  // }, [menu_btn]);
-
   useEffect(() => {
     if (selected_link) {
       setmenu_btn(false);
@@ -100,7 +69,11 @@ const Navbar = () => {
             className="flex flex-row justify-center 
         items-center gap-3"
           >
-            <img src="download.svg" width={40} height={40} />
+            <img
+              src="https://bilalshahid-13.github.io/Vision.ai/public/download.svg"
+              width={40}
+              height={40}
+            />
             <h6 className="text-white font-bold Josefin-Sans leading-loose tracking-wider">
               Vision.<span className="text-base font-extralight">ai</span>
             </h6>

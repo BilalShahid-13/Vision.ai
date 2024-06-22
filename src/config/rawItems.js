@@ -3,11 +3,11 @@ import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 export const Navbar_li = [
   {
     title: "How it Works",
-    link: "https://bilalshahid-13.github.io/Vision.ai/pages/Work",
+    link: "../pages/Work",
   },
   {
     title: "Contact",
-    link: "https://bilalshahid-13.github.io/Vision.ai/pages/Contact",
+    link: "https://bilalshahid-13.github.io/Vision.ai/src/pages/Contact",
   },
   // { title: "Chat", link: "../pages/Chats" },
 ];
