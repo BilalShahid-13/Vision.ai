@@ -7,7 +7,7 @@ export const Navbar_li = [
   },
   {
     title: "Contact",
-    link: "https://bilalshahid-13.github.io/Vision.ai/src/pages/Contact",
+    link: "../pages/Contact",
   },
   // { title: "Chat", link: "../pages/Chats" },
 ];
