@@ -5,7 +5,6 @@ import Home from "./pages/Home";
 import Generate from "./pages/Generate";
 import Contact from "./pages/Contact";
 import Work from "./pages/Work";
-import History from "./pages/History";
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
         <Route path="/generate" element={<Generate />} />
         <Route path="/pages/Work" element={<Work />} />
         <Route path="/pages/Contact" element={<Contact />} />
-        {/* <Route path="/pages/Chats" element={<History />} /> */}
       </Routes>
     </HashRouter>
   );
