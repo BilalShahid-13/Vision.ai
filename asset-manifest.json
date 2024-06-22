@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/BilalShahid-13/Vision.ai/static/css/main.527f98da.css",
-    "main.js": "/BilalShahid-13/Vision.ai/static/js/main.c4b39245.js",
-    "static/js/453.419a5d54.chunk.js": "/BilalShahid-13/Vision.ai/static/js/453.419a5d54.chunk.js",
-    "static/media/Gallient.ttf": "/BilalShahid-13/Vision.ai/static/media/Gallient.419a762c1efbc6a5bd7c.ttf",
-    "index.html": "/BilalShahid-13/Vision.ai/index.html",
-    "main.527f98da.css.map": "/BilalShahid-13/Vision.ai/static/css/main.527f98da.css.map",
-    "main.c4b39245.js.map": "/BilalShahid-13/Vision.ai/static/js/main.c4b39245.js.map",
-    "453.419a5d54.chunk.js.map": "/BilalShahid-13/Vision.ai/static/js/453.419a5d54.chunk.js.map"
+    "main.css": "/Vision.ai/static/css/main.292a8f0d.css",
+    "main.js": "/Vision.ai/static/js/main.aaf850a2.js",
+    "static/js/453.419a5d54.chunk.js": "/Vision.ai/static/js/453.419a5d54.chunk.js",
+    "static/media/Gallient.ttf": "/Vision.ai/static/media/Gallient.419a762c1efbc6a5bd7c.ttf",
+    "index.html": "/Vision.ai/index.html",
+    "main.292a8f0d.css.map": "/Vision.ai/static/css/main.292a8f0d.css.map",
+    "main.aaf850a2.js.map": "/Vision.ai/static/js/main.aaf850a2.js.map",
+    "453.419a5d54.chunk.js.map": "/Vision.ai/static/js/453.419a5d54.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.527f98da.css",
-    "static/js/main.c4b39245.js"
+    "static/css/main.292a8f0d.css",
+    "static/js/main.aaf850a2.js"
   ]
 }
