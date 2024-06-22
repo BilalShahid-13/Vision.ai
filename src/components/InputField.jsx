@@ -37,7 +37,7 @@ const InputField = ({ sendDataToParent }) => {
 
   const PostReq = async () => {
     setloading(true);
-    const apiUrl = "http://localhost:8000";
+    const apiUrl = "https://bilalshahid-13.github.io/Vision.ai";
     const apiToken = "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";
 
     try {
@@ -58,9 +58,9 @@ const InputField = ({ sendDataToParent }) => {
       console.log("result", blob);
       setimgsrc(url);
       console.log(isAuthenticated);
-      if (loggedin) {
-        saveData(url, user);
-      }
+      // if (loggedin) {
+      //   saveData(url, user);
+      // }
       console.log("imgurl", url);
     } catch (error) {
       console.log("error in post req", error.message);
@@ -73,7 +73,7 @@ const InputField = ({ sendDataToParent }) => {
     console.log("text", inputValue);
     console.log("img", img);
     try {
-      const apiUrl = "http://localhost:8000";
+      const apiUrl = "https://bilalshahid-13.github.io/Vision.ai";
       const response = await axios.post(
         `${apiUrl}/insert`,
         {
