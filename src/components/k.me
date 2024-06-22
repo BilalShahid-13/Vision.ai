@@ -1,0 +1,45 @@
+import React, { useEffect, useState } from "react";
+import { FaWandMagicSparkles } from "react-icons/fa6";
+import { PiPaintBrushFill } from "react-icons/pi";
+
+const input = () => {
+  const [buttonHover, setbuttonHover] = useState(false);
+  return (
+    <>
+      {/* input */}
+      <div className="flex flex-col border-[1px] border-slate-500 p-1 rounded-full">
+        <div className="max-sm:relative flex flex-row justify-center items-center gap-3 pl-2">
+          <FaWandMagicSparkles size={20} color="white" />
+          <input
+            type="text"
+            accept="text"
+            value={inputValue}
+            className="w-[70vw] py-1 outline-none bg-transparent
+            placeholder:text-zinc-500 text-blue-400 dm-sans-font"
+            onChange={handleChange}
+            placeholder="Describe your artistic vision or idea here"
+          />
+          <button
+            className="bg-gradient-to-r from-sky-500 to-indigo-500 flex flex-row 
+          max-sm:absolute max-sm:right-0
+         justify-center items-center gap-4 text-neutral-100
+         dm-sans-font text-base font-semibold
+         max-sm:left-0 max-sm:top-12 rounded-full py-3 px-6 
+         "
+            onMouseEnter={() => {
+              setbuttonHover(true);
+            }}
+            onMouseLeave={() => {
+              setbuttonHover(false);
+            }}
+          >
+            Generate
+            {buttonHover ? <PiPaintBrushFill /> : ""}
+          </button>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default input;
